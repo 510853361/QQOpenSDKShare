@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 
-  s.name         = "QQOpenSDK"
+  s.name         = "QQOpenSDKShare"
   s.version      = "3.5.3"
   s.summary      = "QQ Open SDK 3.5.3 version"
 
