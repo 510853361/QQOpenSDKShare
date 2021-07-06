@@ -12,7 +12,9 @@ Pod::Spec.new do |s|
   s.version      = "3.5.3"
   s.summary      = "QQ Open SDK 3.5.3 version"
   
-  s.description  = <<-DESC
+   s.description      = <<-DESC
+TODO: Add long description of the pod here.
+                       DESC
 
   s.homepage     = "https://open.tencent.com"
 
