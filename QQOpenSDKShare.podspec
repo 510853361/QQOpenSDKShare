@@ -28,7 +28,7 @@ TODO: Add long description of the pod here.
 
   s.source       = { :git => 'https://github.com/510853361/QQOpenSDKShare.git', :tag => "#{s.version}" }
 
-  s.frameworks          = 'Security', 'SystemConfiguration', 'CoreGraphics', 'CoreTelephonyQQ'
+  s.frameworks          = 'Security', 'SystemConfiguration', 'CoreGraphics', 'CoreTelephony'
 
   s.libraries           = 'iconv', 'sqlite3', 'c++', 'z'
 
