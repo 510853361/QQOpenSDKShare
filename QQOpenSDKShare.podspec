@@ -25,6 +25,9 @@ TODO: Add long description of the pod here.
   s.platform     = :ios, '9.0'
 
   s.ios.deployment_target = "9.0"
+  
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
   s.source       = { :git => 'https://github.com/510853361/QQOpenSDKShare.git', :tag => "#{s.version}" }
 
