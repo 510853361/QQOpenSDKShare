@@ -22,13 +22,13 @@ TODO: Add long description of the pod here.
  
   s.author             = { 'Tencent' => 'https://open.tencent.com' }
  
-  s.platform     = :ios
+  s.platform     = :ios, '9.0'
 
   s.ios.deployment_target = "9.0"
 
   s.source       = { :git => 'https://github.com/510853361/QQOpenSDKShare.git', :tag => "#{s.version}" }
 
-  s.frameworks          = 'Security', 'SystemConfiguration', 'CoreGraphics', 'CoreTelephony'
+  s.frameworks          = 'Security', 'SystemConfiguration', 'CoreGraphics', 'CoreTelephonyQQ
 
   s.libraries           = 'iconv', 'sqlite3', 'c++', 'z'
 
